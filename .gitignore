@@ -1,0 +1,32 @@
+# Віртуальне оточення
+.venv/
+ENV/
+env/
+
+# Файли Python
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+
+# Логи та тимчасові файли
+*.log
+*.tmp
+*.swp
+
+# Pytest
+.cache/
+.coverage
+htmlcov/
+pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# GitLab CI/CD артефакти
+coverage.xml
+htmlcov/
+.coverage
+coverage.xml
+tests/test-results.xml
