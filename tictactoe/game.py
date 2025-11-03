@@ -1,5 +1,6 @@
 import random
 
+
 def ai_move(board):
     empty_cells = [(r, c) for r in range(3) for c in range(3) if board[r][c] == " "]
     if not empty_cells:
